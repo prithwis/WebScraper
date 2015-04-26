@@ -14,7 +14,7 @@ Writes the data into a another textfile
 import urllib2
 from bs4 import BeautifulSoup
 
-f = open('GetCompanyData)Output.csv','w')
+f = open('GetCompanyDataOutput.csv','w')
 f.write("Comp,Sales,OthOpInc,OpProfit,EBITDA,Interest,Dep,Tax,NetP,EPS"+"\n")
 
 URLfile = open('GetURLLinksOutput-extract.txt', 'r')
